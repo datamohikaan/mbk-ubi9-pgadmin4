@@ -3,8 +3,8 @@ FROM dpage/pgadmin4
 
 
 #You need to define the PGADMIN_DEFAULT_EMAIL and PGADMIN_DEFAULT_PASSWORD or PGADMIN_DEFAULT_PASSWORD_FILE environment variables.
-PGADMIN_DEFAULT_EMAIL="bosch.peter@icloud.com"
-PGADMIN_DEFAULT_PASSWORD="ThisIsCool2025" 
+ENV PGADMIN_DEFAULT_EMAIL=bosch.peter@icloud.com
+ENV PGADMIN_DEFAULT_PASSWORD=ThisIsCool2025 
 
 
 
